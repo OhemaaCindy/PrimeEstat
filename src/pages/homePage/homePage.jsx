@@ -6,12 +6,11 @@ export default function HomePage() {
     <div className="homePage">
       <div className="textContainer">
         <div className="wrapper">
-          <h1 className="title">Find Real Estate & Get your Dream Place</h1>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias
-            tenetur ratione rerum praesentium, non modi quis, deserunt
-            consectetur unde eius architecto ducimus sapiente? Animi quibusdam
-            fuga ex? Commodi, sit non!
+          <h1 className="title">Find Your Dream Home Today</h1>
+          <p className="txt">
+            Explore a wide range of properties tailored to meet your lifestyle
+            and budget. From luxurious homes to cozy apartments, we’re here to
+            help you make the best investment.
           </p>
           <SearchBar />
 

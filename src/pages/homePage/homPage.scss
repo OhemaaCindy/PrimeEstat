@@ -28,6 +28,19 @@
         @include lg {
           font-size: 48px;
         }
+        @include sm {
+          font-size: 30px;
+        }
+      }
+      .txt {
+        font-size: 15px;
+        line-height: 1.2;
+        color: #444;
+        width: 100%;
+        font-weight: 300;
+        @include sm {
+          font-size: 14px;
+        }
       }
 
       .boxes {
