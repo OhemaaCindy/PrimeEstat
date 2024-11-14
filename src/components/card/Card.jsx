@@ -10,8 +10,6 @@ import {
 } from "lucide-react";
 
 function Card({ item }) {
-  // console.log("🚀 ~ Card ~ item:", item);
-
   return (
     <div className="card">
       <Link to={`/${item.id}`} className="imgContainer">
