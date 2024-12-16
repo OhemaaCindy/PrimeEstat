@@ -4,7 +4,7 @@ import "./listPage.scss";
 import Card from "../../components/card/Card";
 import Map from "../../components/map/Map";
 
-export const ListPage = () => {
+export default function ListPage() {
   const data = listData;
 
   return (
@@ -25,4 +25,4 @@ export const ListPage = () => {
       </div>
     </div>
   );
-};
+}
